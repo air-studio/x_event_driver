@@ -62,5 +62,5 @@ int main(void) {
 
 int add(const int a, const int b) {
 	static_assert(sizeof('a') == 4, "");
-	return a + b;
+	return a + b ;
 }
